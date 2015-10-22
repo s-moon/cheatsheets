@@ -1,5 +1,5 @@
 # Git Cheat Sheet
-## Stephen Moon (stephen@logicalmoon.com), 2015
+### Stephen Moon (stephen@logicalmoon.com), 2015
 
 > Anything in italics needs to be replaced with something suitable.
 > E.g. $ git help *command* might mean $git help **config**
