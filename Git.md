@@ -3,7 +3,7 @@
 > Anything in angled brackets needs to be replaced with something suitable.
 > A # indicates the start of a comment - so ignore the rest of the line.
 
-> E.g. $ git help *command* might mean $git help **config**
+> E.g. $ git help <command> might mean $git help *config*
 
 ### Setting User Options
 ```
