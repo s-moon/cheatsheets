@@ -21,3 +21,18 @@ $ git config --list
 ```
 $ git help *command*
 ```
+
+### Adding a file
+```
+$ git add *<file path>*
+```
+
+### Committing a change
+```
+$ git commit
+```
+
+### Pushing changes to your remote repository
+```
+$ git push origin
+```
