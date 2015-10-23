@@ -9,7 +9,7 @@
 ```
 $ git config --global user.name "Stephen Moon"
 $ git config --global user.email stephen@logicalmoon.com
-$ git config --global core.editor "'<path to your editor>'" 
+$ git config --global core.editor "'*<path to your editor>*'" 
 ```
 
 ### Viewing User Options
