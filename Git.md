@@ -92,11 +92,21 @@ $ git log -p -2	# show difference AND limit to last two entries
 $ git log --pretty=oneline		# one line version
 ```
 
-## Undoing a Commit Message
+### Undoing a Commit Message
 ```
 $ git commit --amend	# this will allow you to re-do your commit message
 $ git add <file-that-I-forgot>
 $ git commit --amend	# a second file is added and included in the original commit
+```
+
+### Unstaging a Commit
+```
+$ git reset HEAD <file to undo>
+```
+
+## Undoing a File Modification
+```
+$ git checkout -- <file to undo>		# this will revert a file back to before you modified it
 ```
 
 ### Adding a Submodule
