@@ -54,14 +54,49 @@ $ git help <command>
 $ git add <file path>
 ```
 
+### Viewing Your Unstaged Commits
+```
+$ git diff
+```
+
 ### Committing a Change
 ```
-$ git commit
+$ git commit		# commit message will be required
+$ git commit -m "This is my commit message"		# commit message supplied
+```
+
+### Viewing Your Staged Commits
+```
+$ git diff --staged
 ```
 
 ### Pushing Changes to Your Remote Repository
 ```
 $ git push origin
+```
+
+### Removing Files
+```
+$ git rm PROJECTS.md		# removes from the file system AND from staging
+```
+
+### Renaming Files
+```
+$ git mv file_from file_to
+```
+
+### Viewing Commit History
+```
+$ git log
+$ git log -p -2	# show difference AND limit to last two entries
+$ git log --pretty=oneline		# one line version
+```
+
+## Undoing a Commit Message
+```
+$ git commit --amend	# this will allow you to re-do your commit message
+$ git add <file-that-I-forgot>
+$ git commit --amend	# a second file is added and included in the original commit
 ```
 
 ### Adding a Submodule
