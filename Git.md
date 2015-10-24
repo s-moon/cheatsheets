@@ -3,7 +3,7 @@
 > This is based on a number of sources but especially the excellent http://git-scm.com/book
 > written by Scott Chacon and Ben Straub and published by Apress.
 > Anything in angled brackets needs to be replaced with something suitable.
-> A # indicates the start of a comment - so ignore the rest of the line.
+> A "#" indicates the start of a comment - so ignore the rest of the line.
 
 > E.g. $ git help <command> might mean $git help *config*
 
@@ -21,7 +21,7 @@ $ git config --list
 
 ### Starting a New Repository
 ```
-$ git init		# inside the directory you want to begin using source control with
+$ git init # inside the directory you want to begin using source control with
 ```
 
 ### Cloning (Copying) a Repository
@@ -39,8 +39,8 @@ $ git status --short # short form of the same (see: http://git-scm.com/book/en/v
 ### Ignoring Files in your Repository
 ```
 $ cat .gitignore
-*.[oa] 	# ignore everything ending in o or a e.g. file.oa
-*~ 		# ignore all files which end in the tilde character
+*.[oa] # ignore everything ending in o or a e.g. file.oa
+*~ # ignore all files which end in the tilde character
 # see (http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files)
 ```
 
@@ -61,8 +61,8 @@ $ git diff
 
 ### Committing a Change
 ```
-$ git commit		# commit message will be required
-$ git commit -m "This is my commit message"		# commit message supplied
+$ git commit # commit message will be required
+$ git commit -m "This is my commit message" # commit message supplied
 ```
 
 ### Viewing Your Staged Commits
@@ -77,7 +77,7 @@ $ git push origin
 
 ### Removing Files
 ```
-$ git rm PROJECTS.md		# removes from the file system AND from staging
+$ git rm PROJECTS.md # removes from the file system AND from staging
 ```
 
 ### Renaming Files
@@ -89,14 +89,14 @@ $ git mv file_from file_to
 ```
 $ git log
 $ git log -p -2	# show difference AND limit to last two entries
-$ git log --pretty=oneline		# one line version
+$ git log --pretty=oneline # one line version
 ```
 
 ### Undoing a Commit Message
 ```
-$ git commit --amend	# this will allow you to re-do your commit message
+$ git commit --amend # this will allow you to re-do your commit message
 $ git add <file-that-I-forgot>
-$ git commit --amend	# a second file is added and included in the original commit
+$ git commit --amend # a second file is added and included in the original commit
 ```
 
 ### Unstaging a Commit
@@ -106,7 +106,7 @@ $ git reset HEAD <file to undo>
 
 ## Undoing a File Modification
 ```
-$ git checkout -- <file to undo>		# this will revert a file back to before you modified it
+$ git checkout -- <file to undo> # this will revert a file back to before you modified it
 ```
 
 ### Adding a Submodule
