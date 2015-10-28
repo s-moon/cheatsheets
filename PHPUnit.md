@@ -1,5 +1,7 @@
 # PHP Unit
 
+> This cheat sheet shows some of the basic features of the excellent PHPUnit (https://phpunit.de/)
+
 # Asserts
 * assertEquals ($val1, $val2, $delta, $message)
 * assertFalse ($expression, $message)
