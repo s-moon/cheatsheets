@@ -63,6 +63,7 @@ $ git diff
 ```
 $ git commit # commit message will be required
 $ git commit -m "This is my commit message" # commit message supplied
+$ git commit -a # stage all modified (but not new) files and commit them in one.
 ```
 
 ### Viewing Your Staged Commits
