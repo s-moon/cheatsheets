@@ -106,7 +106,7 @@ $ git commit --amend # a second file is added and included in the original commi
 $ git reset HEAD <file to undo>
 ```
 
-## Undoing a File Modification
+### Undoing a File Modification
 ```
 $ git checkout -- <file to undo> # this will revert a file back to before you modified it
 ```
