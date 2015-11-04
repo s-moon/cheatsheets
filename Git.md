@@ -74,6 +74,7 @@ $ git diff --staged
 ### Pushing Changes to Your Remote Repository
 ```
 $ git push origin
+$ git push origin master # use this if it complains about branches/which branch
 ```
 
 ### Removing Files
