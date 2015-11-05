@@ -77,6 +77,14 @@ $ git push origin
 $ git push origin master # use this if it complains about branches/which branch
 ```
 
+### Making your remotely forked repository match the original
+```
+$ git pull upstream master
+$ git push origin master
+# NB - this assumes you have origin pointing to your forked repository
+# and that upstream points to the source repository.
+```
+
 ### Removing Files
 ```
 $ git rm PROJECTS.md # removes from the file system AND from staging
