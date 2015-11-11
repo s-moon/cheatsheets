@@ -77,6 +77,16 @@ $ git push origin
 $ git push origin master # use this if it complains about branches/which branch
 ```
 
+### Adding remote repositories
+```
+$ git remote add <name of remote> <url of remote>
+```
+
+### Listing remotes
+```
+$ git remote -v
+```
+
 ### Making your remotely forked repository match the original
 ```
 $ git pull upstream master
