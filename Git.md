@@ -129,6 +129,16 @@ $ git checkout -b <branch name>
 $ git branch -d <branch name>
 ```
 
+### Merging a branch with master
+Let's say thay you have a branch called master (you will) and
+another which is named <branch name>. <branch name> already
+contains committed changes that you want to merge back into 
+master.
+```
+$ git checkout master
+$ git merge <branch name>
+```
+
 ### Adding a Submodule
 ```
 $ git submodule add <git reference> # e.g. https://github.com/zendframework/zf1.git
