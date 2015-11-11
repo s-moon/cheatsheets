@@ -119,6 +119,16 @@ $ git reset HEAD <file to undo>
 $ git checkout -- <file to undo> # this will revert a file back to before you modified it
 ```
 
+### Creating a branch
+```
+$ git checkout -b <branch name>
+```
+
+### Deleting a branch
+```
+$ git branch -d <branch name>
+```
+
 ### Adding a Submodule
 ```
 $ git submodule add <git reference> # e.g. https://github.com/zendframework/zf1.git
