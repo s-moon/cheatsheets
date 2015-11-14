@@ -3,12 +3,22 @@
 ### Starting the interactive shell
 ```
 sam@desktop:~$ mysql -u <user> -p
-sam@desktop:~$ mysql -u <user> -p <database>
+sam@desktop:~$ mysql -u <user> -p <database-name>
+```
+
+### Exiting the database
+```
+mysql> quit
 ```
 
 ### Show the databases available
 ```
 mysql> show databases;
+```
+
+### Selecting a database to work with
+```
+mysql> use <database-name>
 ```
 
 Written by Stephen Moon stephen@logicalmoon.com, 2015
