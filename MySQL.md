@@ -21,4 +21,14 @@ mysql> show databases;
 mysql> use <database-name>
 ```
 
+### Listing the tables in a database
+```
+mysql> show tables;
+```
+
+### Describing the format of a table
+```
+mysql> describe <table-name>
+```
+
 Written by Stephen Moon stephen@logicalmoon.com, 2015
