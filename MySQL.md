@@ -6,6 +6,16 @@ sam@desktop:~$ mysql -u <user> -p
 sam@desktop:~$ mysql -u <user> -p <database-name>
 ```
 
+### Six prompts of MySQL
+```
+mysql> ready for new command
+    -> waiting for next line of a command
+    '> waiting for next line of a string started with apostrophe
+    "> as above, but for double quote
+    `> as above, but for back tick
+   /*> as above, but for comment
+```
+
 ### Exiting the database
 ```
 mysql> quit
