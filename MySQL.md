@@ -16,9 +16,14 @@ mysql> ready for new command
    /*> as above, but for comment
 ```
 
-### Exiting the database
+### Exiting the shell
 ```
 mysql> quit
+```
+
+### Creating a database
+```
+mysql> create database <name>;
 ```
 
 ### Show the databases available
