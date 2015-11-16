@@ -26,6 +26,11 @@ mysql> quit
 mysql> create database <name>;
 ```
 
+### Deleting a database
+```
+mysql> drop database <name>;
+```
+
 ### Show the databases available
 ```
 mysql> show databases;
