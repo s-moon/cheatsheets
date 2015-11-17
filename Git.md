@@ -1,7 +1,12 @@
 # Git Cheat Sheet
 
-> This is based on a number of sources but especially the excellent http://git-scm.com/book
-> written by Scott Chacon and Ben Straub and published by Apress.
+Git is a widely used version control system for software development which 
+emphasises speed, data integrity and support for distributed, non-linear
+workflows [source](https://en.wikiacpedia.org/wiki/Git_(software)).
+
+> This is based on a number of sources but especially the excellent 
+> http://git-scm.com/book written by Scott Chacon and Ben Straub and 
+> published by Apress.
 > Anything in angled brackets needs to be replaced with something suitable.
 > A "#" indicates the start of a comment - so ignore the rest of the line.
 
