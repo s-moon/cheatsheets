@@ -1,6 +1,8 @@
 # PHP Unit
 
-> This cheat sheet shows some of the basic features of the excellent PHPUnit (https://phpunit.de/)
+PHPUnit  is a unit testing framework for the PHP programming language. It is
+instance of the xUnit architecture which originated with SUnit and was
+popularised by JUnit [source](https://en.wikipedia.org/wiki/PHPUnit).
 
 # Asserts
 * assertEquals ($val1, $val2, $delta, $message)
