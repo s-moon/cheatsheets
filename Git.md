@@ -2,7 +2,7 @@
 
 Git is a widely used version control system for software development which 
 emphasises speed, data integrity and support for distributed, non-linear
-workflows [source](https://en.wikiacpedia.org/wiki/Git_(software)).
+workflows [source](https://en.wikipedia.org/wiki/Git_%28software%29).
 
 > This is based on a number of sources but especially the excellent 
 > http://git-scm.com/book written by Scott Chacon and Ben Straub and 
