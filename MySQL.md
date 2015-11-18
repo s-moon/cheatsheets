@@ -1,5 +1,9 @@
 # MySQL Cheat Sheet
 
+MySQL is a relational database management system which, in July 2013, was 
+the world's second most widely used and the most widely used open
+source client-server RDBMS [source](https://en.wikipedia.org/wiki/MySQL).
+
 ### Starting the interactive shell
 ```
 sam@desktop:~$ mysql -u <user> -p
