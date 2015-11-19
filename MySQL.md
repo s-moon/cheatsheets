@@ -6,8 +6,8 @@ source client-server RDBMS [source](https://en.wikipedia.org/wiki/MySQL).
 
 ### Starting the interactive shell
 ```
-sam@desktop:~$ mysql -u <user> -p
-sam@desktop:~$ mysql -u <user> -p <database-name>
+$ mysql -u <user> -p
+$ mysql -u <user> -p <database-name>
 ```
 
 ### Six prompts of MySQL
@@ -59,5 +59,16 @@ mysql> describe <table-name>;
 ```
 mysql> drop <table-name>;
 ```
+
+## Exporting (just) data from the database as inserts
+```
+$ mysqldump -u <username> -p --no-create-info <database-name> > output.sql
+```
+
+## Exporting (just) the structure from the database as create statements
+```
+$ mysqldump -u <username> -p --no-data <database-name> > output.sql
+```
+
 
 Written by Stephen Moon stephen@logicalmoon.com, 2015
