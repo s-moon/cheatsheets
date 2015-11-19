@@ -60,12 +60,12 @@ mysql> describe <table-name>;
 mysql> drop <table-name>;
 ```
 
-## Exporting (just) data from the database as inserts
+### Exporting (just) data from the database as inserts
 ```
 $ mysqldump -u <username> -p --no-create-info <database-name> > output.sql
 ```
 
-## Exporting (just) the structure from the database as create statements
+### Exporting (just) the structure from the database as create statements
 ```
 $ mysqldump -u <username> -p --no-data <database-name> > output.sql
 ```
