@@ -6,4 +6,10 @@ ease of Visual Basic. C# is based on C++ and contains features similar to
 those of Java. C# is designed to work with Microsoft's .Net platform. 
 [source](http://searchwindevelopment.techtarget.com/definition/C)
 
+### @
+```
+string @class = "a variable with a keyword name";
+string path = @"c:\normally\slashes\would\escape";
+```
+
 Written by Stephen Moon stephen@logicalmoon.com, 2015
