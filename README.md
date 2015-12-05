@@ -4,7 +4,7 @@ sometimes, you just need a little helping hand :blush:.
 
 So, far, they consist of:
 
-* C &#35;
+* [C &#35;](https://github.com/s-moon/CheatSheets/blob/master/CSharp.md)
 * Git
 * MySQL
 * PHP
