@@ -3,8 +3,8 @@
 C# (pronounced "C-sharp") is an object-oriented programming language from 
 Microsoft that aims to combine the computing power of C++ with the programming 
 ease of Visual Basic. C# is based on C++ and contains features similar to 
-those of Java. C# is designed to work with Microsoft's .Net platform 
-&#40;[source]&#41;(http://searchwindevelopment.techtarget.com/definition/C).
+those of Java. C# is designed to work with Microsoft's .Net platform -- 
+[source](http://searchwindevelopment.techtarget.com/definition/C).
 
 ### @
 ```
