@@ -4,10 +4,11 @@ sometimes, you just need a little helping hand :blush:.
 
 So, far, they consist of:
 
-* PHP
-* PHPUnit
+* C &#35;
 * Git
 * MySQL
+* PHP
+* PHPUnit
 
 Written by Stephen Moon, 2015 (stephen@logicalmoon.com)
 
