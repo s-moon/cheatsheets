@@ -62,4 +62,27 @@ myDateTime.AddMinutes(-5)
 ```
 myDateTime.AddHours(3).AddMinutes(-5).ToString() 
 ```
+
+### Time
+####Create and initialize new TimeSpans
+````
+// Days.Hours:Minutes:Seconds.Milliseconds
+TimeSpan myTimeSpan = TimeSpan.Parse("1.2:3:30.5");
+DateTime myBirthday = DateTime.Parse("12/7/1969");
+TimeSpan myAge = DateTime.Now.Subtract(myBirthday);
+````
+More info at http://is.gd/timespan
+
+####Get individual parts
+```
+myAge.Hours
+myAge.Seconds
+```
+
+#### Fractional amounts
+```
+myTimeSpan.TotalDays // double
+myTimeSpan.TotalHours // double 
+```
+
 Written by Stephen Moon stephen@logicalmoon.com, 2015
