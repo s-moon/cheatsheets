@@ -12,17 +12,17 @@ Implicit conversions - smaller type to larger type without data loss, "upcasting
  
 Explicit conversions - require developer intervention, possibility of data loss, "downcasting", either in the form of cast or using a helper method.
  
-####Casting numbers:
+####Casting numbers
 ```
 int myInteger = (int)myDouble;
 ```
  
-####Numbers to strings:
+####Numbers to strings
 ```
 string myString = myInteger.ToString();
 ```
  
-####String to Numbers:
+####String to numbers
 ```
 int myInteger = int.Parse(myString);
 ```
@@ -60,12 +60,12 @@ DateTime myDateTime = DateTime.Now;
 DateTime myDateTime = DateTime("12/7/1969");
 ```
 
-####Formatting ... many options:
+####Formatting ... many options
 ```
 myDateTime.To_____()
 ```
 
-####Retrieving Parts:
+####Retrieving Parts
 ```
 myDateTime.Year // int
 myDateTime.Hour // int
@@ -73,7 +73,7 @@ myDateTime.DayOfWeek // "Monday"
 myDateTime.DayOfYear // int 175
 ```
 
-####DateTime Math:
+####DateTime Math
 ```
 myDateTime.AddHours(3)
 myDateTime.AddMinutes(-5)
@@ -92,7 +92,6 @@ TimeSpan myTimeSpan = TimeSpan.Parse("1.2:3:30.5");
 DateTime myBirthday = DateTime.Parse("12/7/1969");
 TimeSpan myAge = DateTime.Now.Subtract(myBirthday);
 ````
-More info at http://is.gd/timespan
 
 ####Get individual parts
 ```
