@@ -6,6 +6,27 @@ ease of Visual Basic. C# is based on C++ and contains features similar to
 those of Java. C# is designed to work with Microsoft's .Net platform -- 
 [source](http://searchwindevelopment.techtarget.com/definition/C).
 
+### Casting
+
+Implicit conversions - smaller type to larger type without data loss, "upcasting"
+ 
+Explicit conversions - require developer intervention, possibility of data loss, "downcasting", either in the form of cast or using a helper method.
+ 
+####Casting numbers:
+```
+int myInteger = (int)myDouble;
+```
+ 
+####Numbers to strings:
+```
+string myString = myInteger.ToString();
+```
+ 
+####String to Numbers:
+```
+int myInteger = int.Parse(myString);
+```
+
 ### @
 ```
 string @class = "a variable with a keyword name";
