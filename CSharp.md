@@ -140,4 +140,23 @@ String.Format("Total: {0:C}", totalAmount);
 $50,000.00
 ```
 
+###Single Dimensional Arrays (CS-ASP_021)
+Indexes are zero based
+ 
+####Declaring Arrays
+```
+string[] myArray = new string[3];
+```
+ 
+####Declaring and Initializing Arrays
+```
+string[] myArray = new string[3] { "Moe", "Larry", "Curly" };
+```
+ 
+####Setting / Getting Values
+```
+string myString = myArray[1]; // Retrieve the second element
+myArray[0] = myString; // Sets first element
+```
+
 Written by Stephen Moon stephen@logicalmoon.com, 2015
