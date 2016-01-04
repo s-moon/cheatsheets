@@ -105,4 +105,11 @@ myTimeSpan.TotalDays // double
 myTimeSpan.TotalHours // double 
 ```
 
+###Conditional Ternary Operator
+Shortcut for evaluating an expression and returning a result.
+```
+result = (a == b) ? "Equal" : "Not Equal";
+```
+
+
 Written by Stephen Moon stephen@logicalmoon.com, 2015
