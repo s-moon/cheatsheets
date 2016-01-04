@@ -111,5 +111,33 @@ Shortcut for evaluating an expression and returning a result.
 result = (a == b) ? "Equal" : "Not Equal";
 ```
 
+###Formatting Strings
+####Concatenate Strings
+```
++ +=
+```
+ 
+####Format Strings
+```
+String.Format("Hello {0}.  You are from {1}", "Bob", "Chicago")
+```
+ 
+####Format Numbers
+```
+String.Format("Reference Code: {0:000_000-0}", 1234567)
+123_456-7
+```
+ 
+####Formatting Dates
+```
+String.Format("REference Date: {0:ddd - d, MM, yyyy}", someDate)
+Tue - 5, 07, 2014
+```
+
+####Formatting Currency
+```
+String.Format("Total: {0:C}", totalAmount);
+$50,000.00
+```
 
 Written by Stephen Moon stephen@logicalmoon.com, 2015
