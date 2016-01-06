@@ -169,4 +169,27 @@ rubicsCube[0,1,2] = 42;
 myInteger = rubicsCube[0,1,2];
 ``` 
 
+###Changing the Length of an Array
+
+Arrays are immutable = cannot be changed in memory.
+.NET does provide helper functions which allow you to modify them, though.
+
+```
+Array.Resize(ref myArray, myArray.Length + 1);
+ 
+// Get the highest index:
+int highestIndex = myArray.GetUpperBound(0);
+
+// 0 = dimension we want to retrieve the upper boundary for
+ 
+// Arrays have other helper methods 
+myArray.Sum()
+myArray.Min()
+myArray.Max()
+myArray.Average()
+ 
+Array.Sort(myArray)
+Array.Reverse(myArray)
+```
+
 Written by Stephen Moon stephen@logicalmoon.com, 2015
