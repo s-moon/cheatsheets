@@ -159,4 +159,14 @@ string myString = myArray[1]; // Retrieve the second element
 myArray[0] = myString; // Sets first element
 ```
 
+###Multi-Dimensional Arrays
+
+```
+double[,] myArray = new double[2,3]; // contains 6 elements
+int[,,] rubicsCube = new int[3,3,3] // contains 27 elements
+
+rubicsCube[0,1,2] = 42;
+myInteger = rubicsCube[0,1,2];
+``` 
+
 Written by Stephen Moon stephen@logicalmoon.com, 2015
