@@ -9,8 +9,25 @@ for web development and can be embedded into HTML
 ```
 $substring = substr($string,$start,$length);
 
+If $start and $length are positive, substr( ) returns $length characters in the string, 
+starting at $start. The first character in the string is at position 0: 
+
+print substr('watch out for that tree',6,5);
+out f
+
+If you leave out $length, substr( ) returns the string from $start to the end of the original string: 
+
+print substr('watch out for that tree',17);
+t tree
+
+If $start plus $length goes past the end of the string, substr( ) returns all of the string from $start forward: 
+
+print substr('watch out for that tree',20,5);
+ree
+
 If $start is negative, substr( ) counts back from the end of the string to determine where 
 your substring starts: 
+
 print substr('watch out for that tree', -6);
 print substr('watch out for that tree', -17,5);
 t tree
@@ -18,6 +35,7 @@ out f
 
 If $length is negative, substr( ) counts back from the end of the string to determine 
 where your substring ends: 
+
 print substr('watch out for that tree',15, -2);
 print substr('watch out for that tree', -4, -1);
 hat tr
