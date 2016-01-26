@@ -16,6 +16,13 @@ print substr('watch out for that tree', -17,5);
 t tree
 out f
 
+If $length is negative, substr( ) counts back from the end of the string to determine 
+where your substring ends: 
+print substr('watch out for that tree',15, -2);
+print substr('watch out for that tree', -4, -1);
+hat tr
+tre
+
 $username = substr($_REQUEST['username'],0,8)
 ```
 
