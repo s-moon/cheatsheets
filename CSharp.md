@@ -192,4 +192,4 @@ Array.Sort(myArray)
 Array.Reverse(myArray)
 ```
 
-Written by Stephen Moon stephen@logicalmoon.com, 2015
+Written by Stephen Moon stephen@logicalmoon.com, 2016
