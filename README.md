@@ -6,6 +6,7 @@ So, far, they consist of:
 
 * [C &#35;](https://github.com/s-moon/CheatSheets/blob/master/CSharp.md)
 * [Git](https://github.com/s-moon/CheatSheets/blob/master/Git.md)
+* [Laravel](https://github.com/s-moon/CheatSheets/blob/master/Laravel.md)
 * [MySQL](https://github.com/s-moon/CheatSheets/blob/master/MySQL.md)
 * [PHP](https://github.com/s-moon/CheatSheets/blob/master/PHP.md)
 * [PHPUnit](https://github.com/s-moon/CheatSheets/blob/master/PHPUnit.md)
