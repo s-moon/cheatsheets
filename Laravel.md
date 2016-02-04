@@ -21,5 +21,16 @@ This only needs to be run once.
 Now add this to your path. Pay attention to where it is installed in the user output that is produced -- it
 should be somewhere like ...vendor/bin.
 
+### Creating a new Laravel Project
+```
+> laravel new <project-name>
+```
+
+### Asking artisan for help on a command
+```
+> php artisan help <command>
+e.g.
+> php artisan help make:controller
+```
 
 Written by Stephen Moon stephen@logicalmoon.com, 2016
