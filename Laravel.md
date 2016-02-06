@@ -32,5 +32,8 @@ should be somewhere like ...vendor/bin.
 e.g.
 > php artisan help make:controller
 ```
+### Resources
+* [Documentation](https://laravel.com/docs/5.2)
+* [Videos](https://laracasts.com/)
 
 Written by Stephen Moon stephen@logicalmoon.com, 2016
