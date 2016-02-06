@@ -1,6 +1,6 @@
 # Laravel Cheat Sheet
 
-Laravel is -- [source](link).
+Laravel is a free, open-source PHP web application framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller (MVC) architectural pattern -- [source](https://en.wikipedia.org/wiki/Laravel).
 
 ###Pre-requisites
 * Make sure you have installed PHP version >= 5.5.9
