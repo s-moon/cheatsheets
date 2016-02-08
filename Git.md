@@ -54,9 +54,13 @@ $ cat .gitignore
 $ git help <command>
 ```
 
-### Adding a File
+### Adding Files
 ```
+# Add a specific file
 $ git add <file path>
+
+# Add all files in current directory
+$ git add .
 ```
 
 ### Viewing Your Unstaged Commits
