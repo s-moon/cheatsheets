@@ -35,5 +35,7 @@ e.g.
 ### Resources
 * [Documentation](https://laravel.com/docs/5.2)
 * [Videos](https://laracasts.com/)
+* [Jeffrey Way's GitHub Repo](https://github.com/JeffreyWay?tab=repositories)
+* [Other Resources](http://codecondo.com/laravel-news-resources-tutorials/)
 
 Written by Stephen Moon stephen@logicalmoon.com, 2016
