@@ -32,6 +32,13 @@ should be somewhere like ...vendor/bin.
 e.g.
 > php artisan help make:controller
 ```
+
+### Running a server
+```
+> php artisan serve
+and then go to (usually) http://localhost:8000
+```
+
 ### Resources
 * [Documentation](https://laravel.com/docs/5.2)
 * [Videos](https://laracasts.com/)
