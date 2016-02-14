@@ -37,8 +37,11 @@ $ git clone <url to repository> <your choice of directory name> # e.g. https://g
 
 ### Viewing the Status of Your Repository
 ```
-$ git status # long form
-$ git status --short # short form of the same (see: http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Short-Status)
+# long form
+$ git status 
+
+# short form of the same (see: http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Short-Status)
+$ git status --short 
 ```
 
 ### Ignoring Files in your Repository
@@ -117,15 +120,22 @@ $ git mv file_from file_to
 ### Viewing Commit History
 ```
 $ git log
-$ git log -p -2	# show difference AND limit to last two entries
+
+# show difference AND limit to last two entries
+$ git log -p -2	
+
 $ git log --pretty=oneline # one line version
 ```
 
 ### Undoing a Commit Message
 ```
-$ git commit --amend # this will allow you to re-do your commit message
+# this will allow you to re-do your commit message
+$ git commit --amend 
+
 $ git add <file-that-I-forgot>
-$ git commit --amend # a second file is added and included in the original commit
+
+# a second file is added and included in the original commit
+$ git commit --amend 
 ```
 
 ### Unstaging a Commit
