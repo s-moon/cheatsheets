@@ -5,6 +5,12 @@ open source general-purpose scripting language that is especially suited
 for web development and can be embedded into HTML 
 -- [source](http://php.net/manual/en/intro-whatis.php).
 
+### Variable Names
+ * Letters, numbers and underscores.
+ * Must start with a letter.
+ * Case sensitive.
+ * Preceded by a dollar sign ($).
+
 ### Accessing Substrings
 ```
 $substring = substr($string,$start,$length);
