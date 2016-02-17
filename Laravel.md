@@ -18,8 +18,9 @@ This only needs to be run once.
 ```
 > composer global require "laravel/installer"
 ```
-Now add this to your path. Pay attention to where it is installed in the user output that is produced -- it
-should be somewhere like ...vendor/bin.
+Pay attention to where it is installed in the user output that is produced -- it should be somewhere like ...vendor/bin. If you can't
+see anything, take a look in a folder which resembles C:\Users\[name]\AppData\Roaming\Composer and you should see the vendor folder
+there.
 
 ### Creating A New Laravel Project
 ```
