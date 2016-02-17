@@ -22,6 +22,12 @@ Pay attention to where it is installed in the user output that is produced -- it
 see anything, take a look in a folder which resembles C:\Users\[name]\AppData\Roaming\Composer and you should see the vendor folder
 there.
 
+### Installing Gulp
+Could be useful :-) Make sure npm and node.js are [installed](https://nodejs.org/en/) first, though.
+```
+> npm install -g gulp
+```
+
 ### Creating A New Laravel Project
 ```
 > laravel new <project-name>
