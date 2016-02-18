@@ -46,6 +46,12 @@ e.g.
 and then go to (usually) http://localhost:8000
 ```
 
+### Show full debugging in browser
+Go to app\config\app.php and set this line to true:
+```
+'debug' => env('APP_DEBUG', true),
+```
+
 ### Resources
 * [Documentation](https://laravel.com/docs/5.2)
 * [Videos](https://laracasts.com/)
