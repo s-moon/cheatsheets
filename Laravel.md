@@ -28,12 +28,12 @@ Could be useful :-) Make sure npm and node.js are [installed](https://nodejs.org
 > npm install -g gulp
 ```
 
-### Creating A New Laravel Project
+### Creating a new Laravel project
 ```
 > laravel new <project-name>
 ```
 
-### Asking Artisan For Help On A Command
+### Asking Artisan for help on a command
 ```
 > php artisan help <command>
 e.g.
@@ -45,6 +45,18 @@ e.g.
 > php artisan serve
 and then go to (usually) http://localhost:8000
 ```
+
+### Making a migration
+```
+> php artisan make:migration [name]
+```
+Where name could be something like "create_notes_table"
+
+### Making a model
+```
+> php artisan make:model [name]
+```
+Where name is the name of the model/class. Add "-m" to make the migration, too.
 
 ### Show full debugging in browser
 Go to app\config\app.php and set this line to true:
