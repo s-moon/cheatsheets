@@ -52,6 +52,11 @@ and then go to (usually) http://localhost:8000
 ```
 Where name could be something like "create_notes_table"
 
+### Running Tinker
+```
+> php artisan tinker
+```
+
 ### Making a model
 ```
 > php artisan make:model [name]
