@@ -48,9 +48,9 @@ and then go to (usually) http://localhost:8000
 
 ### Making a migration
 ```
-> php artisan make:migration [name]
+> php artisan make:migration [name] --create=notes
 ```
-Where name could be something like "create_notes_table"
+Where name could be something like "create_notes_table" and instead of notes, you would use your table name.
 
 ### Running Tinker
 ```
