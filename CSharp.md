@@ -12,17 +12,17 @@ Implicit conversions - smaller type to larger type without data loss, "upcasting
  
 Explicit conversions - require developer intervention, possibility of data loss, "downcasting", either in the form of cast or using a helper method.
  
-####Casting numbers
+#### Casting numbers
 ```
 int myInteger = (int)myDouble;
 ```
  
-####Numbers to strings
+#### Numbers to strings
 ```
 string myString = myInteger.ToString();
 ```
  
-####String to numbers
+#### String to numbers
 ```
 int myInteger = int.Parse(myString);
 ```
@@ -54,18 +54,18 @@ finally
 ```
 
 ### Dates
-####Creating new DateTime objects
+#### Creating new DateTime objects
 ```
 DateTime myDateTime = DateTime.Now;
 DateTime myDateTime = DateTime("12/7/1969");
 ```
 
-####Formatting ... many options
+#### Formatting ... many options
 ```
 myDateTime.To_____()
 ```
 
-####Retrieving Parts
+#### Retrieving Parts
 ```
 myDateTime.Year // int
 myDateTime.Hour // int
@@ -73,19 +73,19 @@ myDateTime.DayOfWeek // "Monday"
 myDateTime.DayOfYear // int 175
 ```
 
-####DateTime Math
+#### DateTime Math
 ```
 myDateTime.AddHours(3)
 myDateTime.AddMinutes(-5)
 ```
 
-####"Chaining" = using multiple helper methods together with the dot . operator
+#### "Chaining" = using multiple helper methods together with the dot . operator
 ```
 myDateTime.AddHours(3).AddMinutes(-5).ToString() 
 ```
 
 ### Time
-####Create and initialize new TimeSpans
+#### Create and initialize new TimeSpans
 ````
 // Days.Hours:Minutes:Seconds.Milliseconds
 TimeSpan myTimeSpan = TimeSpan.Parse("1.2:3:30.5");
@@ -93,7 +93,7 @@ DateTime myBirthday = DateTime.Parse("12/7/1969");
 TimeSpan myAge = DateTime.Now.Subtract(myBirthday);
 ````
 
-####Get individual parts
+#### Get individual parts
 ```
 myAge.Hours
 myAge.Seconds
@@ -105,61 +105,61 @@ myTimeSpan.TotalDays // double
 myTimeSpan.TotalHours // double 
 ```
 
-###Conditional Ternary Operator
+### Conditional Ternary Operator
 Shortcut for evaluating an expression and returning a result.
 ```
 result = (a == b) ? "Equal" : "Not Equal";
 ```
 
-###Formatting Strings
-####Concatenate Strings
+### Formatting Strings
+#### Concatenate Strings
 ```
 + +=
 ```
  
-####Format Strings
+#### Format Strings
 ```
 String.Format("Hello {0}.  You are from {1}", "Bob", "Chicago")
 ```
  
-####Format Numbers
+#### Format Numbers
 ```
 String.Format("Reference Code: {0:000_000-0}", 1234567)
 123_456-7
 ```
  
-####Formatting Dates
+#### Formatting Dates
 ```
 String.Format("REference Date: {0:ddd - d, MM, yyyy}", someDate)
 Tue - 5, 07, 2014
 ```
 
-####Formatting Currency
+#### Formatting Currency
 ```
 String.Format("Total: {0:C}", totalAmount);
 $50,000.00
 ```
 
-###Single Dimensional Arrays (CS-ASP_021)
-Indexes are zero based
+### Single Dimensional Arrays
+Indices are zero based.
  
-####Declaring Arrays
+#### Declaring Arrays
 ```
 string[] myArray = new string[3];
 ```
  
-####Declaring and Initializing Arrays
+#### Declaring and Initializing Arrays
 ```
 string[] myArray = new string[3] { "Moe", "Larry", "Curly" };
 ```
  
-####Setting / Getting Values
+#### Setting / Getting Values
 ```
 string myString = myArray[1]; // Retrieve the second element
 myArray[0] = myString; // Sets first element
 ```
 
-###Multi-Dimensional Arrays
+### Multi-Dimensional Arrays
 
 ```
 double[,] myArray = new double[2,3]; // contains 6 elements
@@ -169,7 +169,7 @@ rubicsCube[0,1,2] = 42;
 myInteger = rubicsCube[0,1,2];
 ``` 
 
-###Changing the Length of an Array
+### Changing the Length of an Array
 
 Arrays are immutable = cannot be changed in memory.
 .NET does provide helper functions which allow you to modify them, though.
