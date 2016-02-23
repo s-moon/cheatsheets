@@ -6,6 +6,17 @@ ease of Visual Basic. C# is based on C++ and contains features similar to
 those of Java. C# is designed to work with Microsoft's .Net platform -- 
 [source](http://searchwindevelopment.techtarget.com/definition/C).
 
+### Naming conventions for identifiers
+PascalCase - public
+camelCase - private, protected
+ 
+Public classes, methods and properties - PascalCase
+Private helper methods, input parameters - camelCase
+Locally scoped variables - camelCase
+Private field - camelCase prefixed w/ underscore: _firstName
+ 
+Choose long, memorable, understandable names that convey meaning / intent
+
 ### Casting
 
 Implicit conversions - smaller type to larger type without data loss, "upcasting"
@@ -105,61 +116,61 @@ myTimeSpan.TotalDays // double
 myTimeSpan.TotalHours // double 
 ```
 
-### Conditional Ternary Operator
+### Conditional ternary operator
 Shortcut for evaluating an expression and returning a result.
 ```
 result = (a == b) ? "Equal" : "Not Equal";
 ```
 
-### Formatting Strings
-#### Concatenate Strings
+### Formatting strings
+#### Concatenate strings
 ```
 + +=
 ```
  
-#### Format Strings
+#### Format strings
 ```
 String.Format("Hello {0}.  You are from {1}", "Bob", "Chicago")
 ```
  
-#### Format Numbers
+#### Format numbers
 ```
 String.Format("Reference Code: {0:000_000-0}", 1234567)
 123_456-7
 ```
  
-#### Formatting Dates
+#### Formatting dates
 ```
 String.Format("REference Date: {0:ddd - d, MM, yyyy}", someDate)
 Tue - 5, 07, 2014
 ```
 
-#### Formatting Currency
+#### Formatting currency
 ```
 String.Format("Total: {0:C}", totalAmount);
 $50,000.00
 ```
 
-### Single Dimensional Arrays
+### Single dimensional arrays
 Indices are zero based.
  
-#### Declaring Arrays
+#### Declaring arrays
 ```
 string[] myArray = new string[3];
 ```
  
-#### Declaring and Initializing Arrays
+#### Declaring and initializing arrays
 ```
 string[] myArray = new string[3] { "Moe", "Larry", "Curly" };
 ```
  
-#### Setting / Getting Values
+#### Setting / getting values
 ```
 string myString = myArray[1]; // Retrieve the second element
 myArray[0] = myString; // Sets first element
 ```
 
-### Multi-Dimensional Arrays
+### Multi-dimensional arrays
 
 ```
 double[,] myArray = new double[2,3]; // contains 6 elements
@@ -169,7 +180,7 @@ rubicsCube[0,1,2] = 42;
 myInteger = rubicsCube[0,1,2];
 ``` 
 
-### Changing the Length of an Array
+### Changing the length of an array
 
 Arrays are immutable = cannot be changed in memory.
 .NET does provide helper functions which allow you to modify them, though.
