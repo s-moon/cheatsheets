@@ -17,8 +17,19 @@ Private field - camelCase prefixed w/ underscore: _firstName
  
 Choose long, memorable, understandable names that convey meaning / intent
 
-### Casting
+###Static versus instance members
+Static members - no instance of the class required to call method.
+ 
+Instance member - must create an instance w/ new keyword to call
+methods and properties.
+ 
+Can mix both in the same class, but can't reference instance
+members from inside of static members.
+ 
+Classes can be decaoted w/ static keyword...all members
+must be static, can't create a new instance of that class.
 
+### Casting
 Implicit conversions - smaller type to larger type without data loss, "upcasting"
  
 Explicit conversions - require developer intervention, possibility of data loss, "downcasting", either in the form of cast or using a helper method.
