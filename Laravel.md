@@ -69,6 +69,12 @@ Go to app\config\app.php and set this line to true:
 'debug' => env('APP_DEBUG', true),
 ```
 
+### Faking unimplemented REST methods
+```
+<form method="POST" action="/notes/{{ $note->id }}">
+        {{ method_field('PATCH') }}
+```
+
 ### Resources
 * [Documentation](https://laravel.com/docs/5.2)
 * [Videos](https://laracasts.com/)
