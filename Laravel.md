@@ -63,6 +63,18 @@ Where name could be something like "create_notes_table" and instead of notes, yo
 ```
 Where name is the name of the model/class. Add "-m" to make the migration, too.
 
+### Database manipulations in Tinker
+```
+# show all records - Class::all();
+> App\User::all();
+
+# find a record
+> App\Note::find(6);
+
+# find AND delete a record
+> App\Note::find(6)->delete();
+```
+
 ### Show full debugging in browser
 Go to app\config\app.php and set this line to true:
 ```
