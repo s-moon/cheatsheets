@@ -103,6 +103,19 @@ RuntimeException in compiled.php line 7530:
 No supported encrypter found. The cipher and / or key length are invalid.
 ```
 
+### CSRF validation errors
+This can be fixed by editing App\Http\Kernel.php as follows:
+```
+protected $middlewareGroups = [
+        'web' => [
+            \App\Http\Middleware\EncryptCookies::class,
+            \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
+            \Illuminate\Session\Middleware\StartSession::class,
+            \Illuminate\View\Middleware\ShareErrorsFromSession::class,
+           //  \App\Http\Middleware\VerifyCsrfToken::class,
+```
+Although this probably isn't the *right* way :-)
+
 ### Resources
 * [Documentation](https://laravel.com/docs/5.2)
 * [Videos](https://laracasts.com/)
