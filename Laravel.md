@@ -87,11 +87,21 @@ Go to app\config\app.php and set this line to true:
         {{ method_field('PATCH') }}
 ```
 
-### Generating a cryptographic key
+### Generating a cryptographic key/crypto error
 ```
 > php artisan key:generate
 ```
-Needed if you see an error like this: RuntimeException in compiled.php line 7530: / No supported encrypter found. The cipher and / or key length are invalid.
+In config\app.php, ensure this has the following line:
+```
+'key' => env('APP_KEY','MF5l...'),
+'cipher' => 'AES-256-CBC',
+```
+Where the MF51 part came from the artisan command above.
+This is needed if you see an error like this: 
+```
+RuntimeException in compiled.php line 7530:
+No supported encrypter found. The cipher and / or key length are invalid.
+```
 
 ### Resources
 * [Documentation](https://laravel.com/docs/5.2)
