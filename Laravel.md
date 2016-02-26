@@ -104,7 +104,12 @@ No supported encrypter found. The cipher and / or key length are invalid.
 ```
 
 ### CSRF validation errors
-This can be fixed by editing App\Http\Kernel.php as follows:
+All form elements should use the following:
+```
+<form....>
+        {{ csrf_field() }}
+```
+Another way, rather like removing a limb to fix an itch, is this: Edit App\Http\Kernel.php as follows:
 ```
 protected $middlewareGroups = [
         'web' => [
@@ -114,7 +119,7 @@ protected $middlewareGroups = [
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
            //  \App\Http\Middleware\VerifyCsrfToken::class,
 ```
-Although this probably isn't the *right* way :-)
+Although this absolutely isn't the *right* way :-)
 
 ### Resources
 * [Documentation](https://laravel.com/docs/5.2)
