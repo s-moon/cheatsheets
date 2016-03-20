@@ -11,4 +11,9 @@ Razor is an ASP.NET programming syntax used to create dynamic web pages with the
 }
 ```
 
+### Expression (Html Encoded)	
+```
+<span>@model.Message</span>
+```
+
 Written by Stephen Moon, 2016
