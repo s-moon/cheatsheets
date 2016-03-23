@@ -46,4 +46,24 @@ Razor is an ASP.NET programming syntax used to create dynamic web pages with the
 }
 ```
 
+###Mixing Code and Plain Text (alternate)	
+```
+@if (foo) {
+  @:Plain Text is @bar
+}
+```
+
+###Email Addresses	
+```
+Hi philha@example.com
+Razor recognizes basic email format and is smart enough not to treat the @ as a code delimiter
+```
+
+###Explicit Expression	
+```
+<span>
+  ISBN@(isbnNumber)
+</span>
+```
+
 Written by Stephen Moon, 2016
