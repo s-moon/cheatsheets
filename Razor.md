@@ -66,4 +66,39 @@ Razor recognizes basic email format and is smart enough not to treat the @ as a 
 </span>
 ```
 
+###Escaping the @ sign
+```
+<span>
+  In Razor, you use the 
+  @@foo to display the value 
+  of foo
+</span>
+```
+
+###Server side Comment	
+```
+@*
+This is a server side 
+multiline comment 
+*@
+```
+
+###Calling generic method	
+```
+  @(MyClass.MyMethod<AType>())
+```
+
+###Creating a Razor Delegate	
+```
+@{
+  Func<dynamic, object> b = 
+   @<strong>@item</strong>;
+}
+@b("Bold this")
+```
+
+###Mixing expressions and text	
+```
+Hello @title. @name.
+```
 Written by Stephen Moon, 2016
