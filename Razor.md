@@ -101,4 +101,34 @@ multiline comment
 ```
 Hello @title. @name.
 ```
+
+###Conditional attributes	
+```
+<div class="@className">
+</div>
+```
+
+###Conditional attributes with other literal values	
+```
+<div class="@className foo bar">
+</div>
+```
+
+###Conditional data-* attributes. 
+data-* attributes are always rendered.	
+```
+<div data-x="@xpos"></div>
+```
+
+###Boolean attributes	
+```
+<input type="checkbox" checked="@isChecked" />
+```  
+
+###URL Resolution with tilde	
+```
+<script src="~/myscript.js">
+</script>
+```
+
 Written by Stephen Moon, 2016
