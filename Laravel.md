@@ -133,4 +133,4 @@ Although this absolutely isn't the *right* way :-)
 * [Other Resources](http://codecondo.com/laravel-news-resources-tutorials/)
 * [Validation docs](https://laravel.com/docs/5.2/validation)
 
-Written by Stephen Moon stephen@logicalmoon.com, 2016
+Written by Stephen Moon (stephen@logicalmoon.com), 2016
