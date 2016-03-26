@@ -173,4 +173,4 @@ $ git merge <branch name>
 $ git submodule add <git reference> # e.g. https://github.com/zendframework/zf1.git
 ```
 
-Written by Stephen Moon stephen@logicalmoon.com, 2016
+Written by Stephen Moon (stephen@logicalmoon.com), 2016
