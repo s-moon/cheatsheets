@@ -158,6 +158,12 @@ $ git checkout -b <branch name>
 $ git branch -d <branch name>
 ```
 
+### Switching between branches
+```
+$ git co -
+# repeat to switch back to previous branch
+```
+
 ### Merging a branch with master
 Let's say thay you have a branch called master (you will) and
 another which is named <branch name>. <branch name> already
