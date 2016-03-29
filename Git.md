@@ -146,6 +146,9 @@ $ git reset HEAD <file to undo>
 ### Undoing a File Modification
 ```
 $ git checkout -- <file to undo> # this will revert a file back to before you modified it
+
+# remove all changes
+$ git co --
 ```
 
 ### Creating a branch
