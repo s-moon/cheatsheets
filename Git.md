@@ -64,6 +64,9 @@ $ git add <file path>
 
 # Add all files in current directory
 $ git add .
+
+# Adding files one by one (use y, n or q to end)
+$ git add -p
 ```
 
 ### Viewing Your Unstaged Commits
