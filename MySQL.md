@@ -71,4 +71,4 @@ $ mysqldump -u <username> -p --no-data <database-name> > output.sql
 ```
 
 
-Written by Stephen Moon stephen@logicalmoon.com, 2016
+Written by Stephen Moon (stephen@logicalmoon.com), 2016
