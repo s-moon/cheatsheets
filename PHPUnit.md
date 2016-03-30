@@ -12,4 +12,4 @@ popularised by JUnit -- [source](https://en.wikipedia.org/wiki/PHPUnit).
 * assertSame ($val1, $val2, $message) # must be references to same object
 * assertNotSame ($val1, $val2, $message)
 
-Written by Stephen Moon stephen@logicalmoon.com, 2016
+Written by Stephen Moon (stephen@logicalmoon.com), 2016
