@@ -57,4 +57,4 @@ $ts = mktime(21, 34, 1, 17, 2012);
 echo date("d/m/y G:i:s e", $ts);
 ```
 
-Written by Stephen Moon stephen@logicalmoon.com, 2016
+Written by Stephen Moon (stephen@logicalmoon.com), 2016
