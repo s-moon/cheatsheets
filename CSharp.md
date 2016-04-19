@@ -10,10 +10,10 @@ those of Java. C# is designed to work with Microsoft's .Net platform --
 * PascalCase - public
 * camelCase - private, protected
  
-Public classes, methods and properties - PascalCase
-Private helper methods, input parameters - camelCase
-Locally scoped variables - camelCase
-Private field - camelCase prefixed w/ underscore: _firstName
+* Public classes, methods and properties - PascalCase
+* Private helper methods, input parameters - camelCase
+* Locally scoped variables - camelCase
+* Private field - camelCase prefixed w/ underscore: _firstName
  
 Choose long, memorable, understandable names that convey meaning / intent
 
