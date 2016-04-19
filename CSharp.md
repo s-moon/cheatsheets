@@ -9,7 +9,6 @@ those of Java. C# is designed to work with Microsoft's .Net platform --
 ### Naming conventions for identifiers
 * PascalCase - public
 * camelCase - private, protected
- 
 * Public classes, methods and properties - PascalCase
 * Private helper methods, input parameters - camelCase
 * Locally scoped variables - camelCase
