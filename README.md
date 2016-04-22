@@ -1,5 +1,5 @@
 # CheatSheets
-A repository to store all of my cheat sheets for various things. why? Because
+A repository to store all of my cheat sheets for various things. Why? Because
 sometimes, you just need a little helping hand :blush:.
 
 So, far, they consist of:
