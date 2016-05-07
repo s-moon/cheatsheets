@@ -1,4 +1,5 @@
 # R
+R is a language and environment for statistical computing and graphics. R provides a wide variety of statistical (linear and nonlinear modelling, classical statistical tests, time-series analysis, classification, clustering, …) and graphical techniques, and is highly extensible. The S language is often the vehicle of choice for research in statistical methodology, and R provides an Open Source route to participation in that activity. [Source](https://www.r-project.org/about.html)
 
 ### Expressions
 ```
