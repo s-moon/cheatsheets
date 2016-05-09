@@ -5,7 +5,7 @@ sometimes, you just need a little helping hand :blush:.
 So, far, they consist of:
 
 * [Big Data](https/://github.com/s-moon/CheatSheets/blob/master/BigData.md)
-* [C &#35;](https://github.com/s-moon/CheatSheets/blob/master/CSharp.md)
+* [C&#35;](https://github.com/s-moon/CheatSheets/blob/master/CSharp.md)
 * [Git](https://github.com/s-moon/CheatSheets/blob/master/Git.md)
 * [Laravel](https://github.com/s-moon/CheatSheets/blob/master/Laravel.md)
 * [MySQL](https://github.com/s-moon/CheatSheets/blob/master/MySQL.md)
