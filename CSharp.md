@@ -181,7 +181,6 @@ myArray[0] = myString; // Sets first element
 ```
 
 ### Multi-dimensional arrays
-
 ```
 double[,] myArray = new double[2,3]; // contains 6 elements
 int[,,] rubicsCube = new int[3,3,3] // contains 27 elements
@@ -191,7 +190,6 @@ myInteger = rubicsCube[0,1,2];
 ``` 
 
 ### Changing the length of an array
-
 Arrays are immutable = cannot be changed in memory.
 .NET does provide helper functions which allow you to modify them, though.
 
@@ -211,6 +209,12 @@ myArray.Average()
  
 Array.Sort(myArray)
 Array.Reverse(myArray)
+```
+
+### Formatted output (C# 6)
+```
+int x = 5;
+System.Console.WriteLine($"{x} is a lovely number.");
 ```
 
 Written by Stephen Moon (stephen@logicalmoon.com), 2016
