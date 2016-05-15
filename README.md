@@ -14,5 +14,7 @@ So, far, they consist of:
 * [R](https://github.com/s-moon/CheatSheets/blob/master/R.md)
 * [Razor](https://github.com/s-moon/CheatSheets/blob/master/Razor.md)
 
+If you find any mistakes, please let me know and I will correct them.
+
 Written by Stephen Moon, 2016 (stephen@logicalmoon.com)
 
