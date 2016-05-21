@@ -5,7 +5,7 @@
 * Customer collaboration over contract negotiation
 * Responding to change over following a plan
 
-#### Principles
+#### Principles ([Source](http://www.agilemanifesto.org/principles.html))
 Our highest priority is to satisfy the customer
 through early and continuous delivery
 of valuable software.
