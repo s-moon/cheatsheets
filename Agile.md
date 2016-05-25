@@ -22,4 +22,4 @@ Agile is a time boxed, iterative approach to software delivery that builds softw
 * The best architectures, requirements, and designs emerge from **self-organizing teams**.
 * At **regular intervals**, the **team reflects** on how to become more effective, then tunes and adjusts its behavior accordingly.
 
-
+Written by Stephen Moon (stephen@logicalmoon.com), 2016
