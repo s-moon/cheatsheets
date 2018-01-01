@@ -6,8 +6,10 @@ for web development and can be embedded into HTML
 -- [source](http://php.net/manual/en/intro-whatis.php).
 
 ### Code Blocks Tags
+```
 <?php ?>
 End tag not needed if only PHP in file
+```
 
 ### Variable Names
  * Letters, numbers and underscores.
@@ -16,13 +18,16 @@ End tag not needed if only PHP in file
  * Preceded by a dollar sign ($).
 
 ### Main Types
+```
 Number
 Float
 String
 Boolean = true, false
 Array
+```
 
 ### Arrays
+```
 Are zero based for simple arrays.
 $x = array();
 $x = array('one', 'two', 'three');
@@ -35,33 +40,45 @@ $x[1]['index-as-string']
 $games = array(
 	'tabletop' => array('table-tennis', 'poker')
 );
+```
 
 ### Operators
+```
 +, -, *, /, ** (to power), -> (object operator)
+```
 
 ### Comparison Operators
+```
 <, >, >=, <=, == (equal), === (identical), !=
 5 === '5' is false
 5 == '5' is true
+```
 
 ### Logical Operators
+```
 &&, ||, !
+```
 
 ### String Usage
+```
 echo "hello $planet";
 echo "show array var {$array_var['name']}"; = needs curly braces
 echo 'hello world';
 echo 'hello ' . 'world';
+```
 
 ### Functions (Defined)
+```
 function validate_date($date_raw)
 {
   if ($time = strtotime($date_raw)) {
     return date('m d y', $time);
   }
 }
+```
 
 ### Functions (Inbuilt)
+```
 asort(array) = sort an array alphabetically.
 count(array) = number of items in array.
 date(format, date_var) = formats dates and returns strings
@@ -81,8 +98,10 @@ shuffle(array) = reorder array in a random fashion.
 strtotime(string) = returns epoch date. Can also handle things like today, yesterday, last saturday of march 2014 etc. True/false if valid.
 trim(string) = remove leading and trailing space from string.
 var_dump(object) = display contents of object/array
+```
 
 ### Conditionals and Loops
+```
 if () {
 //
 } elseif () {
@@ -106,23 +125,28 @@ foreach ($array as $array_item) {
 foreach ($meteors as $name => $value) {
 //
 }
+```
 
 ### Super Globals
+```
 $_SERVER e.g. $_SERVER['REQUEST_METHOD'] === 'POST'
 $_POST e.g. $_POST['post-var']
+```
 
 ### Magic Constants
+```
 __DIR__ = directory of current file
+```
 
 ### Acronyms
-PSR - PHP Standards Recommendation
-PSR-1 = Basic Coding Standard
-PSR-2 = Coding Style Guide
-PSR-3 = Logger Standard
-PSR-4 = Auto Loading Standard
-PSR-5 = Caching Interface
-PSR-6 = HTTP Messaging Interface
-PHP-FIG = Framework Interop Group - make those standards
+* PSR - PHP Standards Recommendation
+* PSR-1 = Basic Coding Standard
+* PSR-2 = Coding Style Guide
+* PSR-3 = Logger Standard
+* PSR-4 = Auto Loading Standard
+* PSR-5 = Caching Interface
+* PSR-6 = HTTP Messaging Interface
+* PHP-FIG = Framework Interop Group - make those standards
 
 ### Accessing Substrings
 ```
