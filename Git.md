@@ -74,6 +74,11 @@ $ git add -p
 $ git diff
 ```
 
+### Undoing an Edit to a File
+```
+$ git checkout --- <file you want to lose the edit for>
+```
+
 ### Committing a Change
 ```
 $ git commit # commit message will be required
@@ -185,4 +190,4 @@ $ git merge <branch name>
 $ git submodule add <git reference> # e.g. https://github.com/zendframework/zf1.git
 ```
 
-Written by Stephen Moon (stephen@logicalmoon.com), 2016
+Written by Stephen Moon (stephen@logicalmoon.com)
