@@ -159,20 +159,23 @@ $ git checkout -- <file to undo> # this will revert a file back to before you mo
 $ git co --
 ```
 
-### Creating a branch
+### Creating a branch and switching to it
 ```
-$ git checkout -b <branch name>
+$ git checkout -b <branch-name>
 ```
 
 ### Deleting a branch
 ```
-$ git branch -d <branch name>
+$ git branch -d <branch-name>
 ```
 
 ### Switching between branches
 ```
 $ git co -
 # repeat to switch back to previous branch
+
+or
+$ git checkout <branch-name>
 ```
 
 ### Merging a branch with master
@@ -182,12 +185,12 @@ contains committed changes that you want to merge back into
 master.
 ```
 $ git checkout master
-$ git merge <branch name>
+$ git merge <branch-name>
 ```
 
 ### Adding a Submodule
 ```
-$ git submodule add <git reference> # e.g. https://github.com/zendframework/zf1.git
+$ git submodule add <git-reference> # e.g. https://github.com/zendframework/zf1.git
 ```
 
 Written by Stephen Moon (stephen@logicalmoon.com)
