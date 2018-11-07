@@ -14,3 +14,15 @@ az vm open-port -n name-of-vm -g resource-group --port port-number
 ```
 az group delete -n name-of-resource-group
 ```
+
+### VMs available in a region
+```
+stephen@Azure:~$ az vm list-sizes --location eastus --output table
+MaxDataDiskCount    MemoryInMb    Name                    NumberOfCores    OsDiskSizeInMb    ResourceDiskSizeInMb
+------------------  ------------  ----------------------  ---------------  ----------------  ----------------------
+2                   2048          Standard_B1ms           1                1047552           4096
+2                   1024          Standard_B1s            1                1047552           2048
+4                   8192          Standard_B2ms           2                1047552           16384
+4                   4096          Standard_B2s            2                1047552           8192
+...
+```
