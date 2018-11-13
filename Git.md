@@ -12,30 +12,30 @@ workflows -- [source](https://en.wikipedia.org/wiki/Git_%28software%29).
 
 > E.g. $ git help \<command\> might mean $git help *config*
 
-### Setting User Options
+### Setting user options
 ```
 $ git config --global user.name "Stephen Moon"
 $ git config --global user.email stephen@logicalmoon.com
 $ git config --global core.editor "'<path to your editor>'" 
 ```
 
-### Viewing User Options
+### Viewing user options
 ```
 $ git config --list
 ```
 
-### Starting a New Repository
+### Starting a new repository
 ```
 $ git init # inside the directory you want to begin using source control with
 ```
 
-### Cloning (Copying) a Repository
+### Cloning (copying) a repository
 ```
 $ git clone <url to repository> # e.g. https://github.com/s-moon/CheatSheets.git
 $ git clone <url to repository> <your choice of directory name> # e.g. https://github.com/s-moon/CheatSheets.git CheatSheetsGalore
 ```
 
-### Viewing the Status of Your Repository
+### Viewing the status of your repository
 ```
 # long form
 $ git status 
@@ -44,7 +44,7 @@ $ git status
 $ git status --short 
 ```
 
-### Ignoring Files in your Repository
+### Ignoring files in your repository
 ```
 $ cat .gitignore
 *.[oa] # ignore everything ending in o or a e.g. file.oa
@@ -52,12 +52,12 @@ $ cat .gitignore
 # see (http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files)
 ```
 
-### Getting Help
+### Getting help
 ```
 $ git help <command>
 ```
 
-### Adding Files
+### Adding files
 ```
 # Add a specific file
 $ git add <file path>
@@ -69,29 +69,29 @@ $ git add .
 $ git add -p
 ```
 
-### Viewing Your Unstaged Commits
+### Viewing your unstaged commits
 ```
 $ git diff
 ```
 
-### Undoing an Edit to a File
+### Undoing an edit to a file
 ```
 $ git checkout --- <file you want to lose the edit for>
 ```
 
-### Committing a Change
+### Committing a change
 ```
 $ git commit # commit message will be required
 $ git commit -m "This is my commit message" # commit message supplied
 $ git commit -a # stage all modified (but not new) files and commit them in one.
 ```
 
-### Viewing Your Staged Commits
+### Viewing your staged commits
 ```
 $ git diff --staged
 ```
 
-### Pushing Changes to Your Remote Repository
+### Pushing changes to your remote repository
 ```
 $ git push origin
 $ git push origin master # use this if it complains about branches/which branch
@@ -115,17 +115,17 @@ $ git push origin master
 # and that upstream points to the source repository.
 ```
 
-### Removing Files
+### Removing files
 ```
 $ git rm PROJECTS.md # removes from the file system AND from staging
 ```
 
-### Renaming Files
+### Renaming files
 ```
 $ git mv file_from file_to
 ```
 
-### Viewing Commit History
+### Viewing commit history
 ```
 $ git log
 
@@ -135,7 +135,7 @@ $ git log -p -2
 $ git log --pretty=oneline # one line version
 ```
 
-### Undoing a Commit Message
+### Undoing a commit message
 ```
 # this will allow you to re-do your commit message
 $ git commit --amend 
@@ -146,12 +146,12 @@ $ git add <file-that-I-forgot>
 $ git commit --amend 
 ```
 
-### Unstaging a Commit
+### Unstaging a commit
 ```
 $ git reset HEAD <file to undo>
 ```
 
-### Undoing a File Modification
+### Undoing a file modification
 ```
 $ git checkout -- <file to undo> # this will revert a file back to before you modified it
 
@@ -167,6 +167,11 @@ $ git checkout -b <branch-name>
 ### Deleting a branch
 ```
 $ git branch -d <branch-name>
+```
+
+### Force deleting a branch with unmerged commits
+```
+$ git branch -D <branch-name>
 ```
 
 ### Switching between branches
