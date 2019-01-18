@@ -10,6 +10,7 @@ Clear       Common
 Close       Common
 ...
 ```
+
 ### Show commands that match a pattern
 ```
 > Get-Command *ip*
@@ -36,4 +37,9 @@ Application     ipconfig.exe                                       10.0.17... C:
 ### List available modules
 ```
 > Get-Module -ListAvailable
+```
+
+### List AD groups for a user
+```
+> (Get-ADUser <username> –Properties MemberOf | Select-Object MemberOf).MemberOf
 ```
