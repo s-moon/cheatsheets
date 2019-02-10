@@ -28,6 +28,11 @@ Could be useful :-) Make sure npm and node.js are [installed](https://nodejs.org
 > npm install -g gulp
 ```
 
+### Listing artisan commands
+```
+> php artisan list
+```
+
 ### Creating a new Laravel project
 ```
 > laravel new <project-name>
