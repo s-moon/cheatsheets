@@ -28,6 +28,11 @@ Could be useful :-) Make sure npm and node.js are [installed](https://nodejs.org
 > npm install -g gulp
 ```
 
+### Current artisan version
+```
+> php artisan --version
+```
+
 ### Listing artisan commands
 ```
 > php artisan list
