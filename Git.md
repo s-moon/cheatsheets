@@ -198,16 +198,13 @@ $ git checkout master
 $ git merge <branch-name>
 ```
 
-### Setting upstream tracking for a branch
-After creating a new branch, ```foo```, you can make it track a remote branch ```origin``` with
-the following command if IN THE BRANCH:
+### Pushing a branch to GitHub for the first time
+After creating a new branch, ```foo```, you can push it to a remote branch ```origin``` with
+the following command ONCE AND FOR THE FIRST TIME:
 ```
-$ git branch -u origin/foo
+$ git push -u <remote> <new-branch>
 ```
-or if not in the branch, foo:
-```
-$ git branch -u origin/foo foo
-```
+Where <remote> is usually ```master``` and ```<new-branch>``` is your new branch name.
 
 ### Adding a Submodule
 ```
