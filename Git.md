@@ -174,6 +174,11 @@ $ git branch -d <branch-name>
 $ git branch -D <branch-name>
 ```
 
+### Deleting branch from GitHub
+```
+$ git push <remote_name> --delete <branch_name>
+```
+
 ### Switching between branches
 ```
 $ git co -
