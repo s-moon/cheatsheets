@@ -193,7 +193,7 @@ $ git checkout master
 $ git merge <branch-name>
 ```
 
-## Setting upstream tracking for a branch
+### Setting upstream tracking for a branch
 After creating a new branch, ```foo```, you can make it track a remote branch ```origin``` with
 the following command if IN THE BRANCH:
 ```
