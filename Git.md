@@ -193,6 +193,17 @@ $ git checkout master
 $ git merge <branch-name>
 ```
 
+## Setting upstream tracking for a branch
+After creating a new branch, ```foo```, you can make it track a remote branch ```origin``` with
+the following command if IN THE BRANCH:
+```
+$ git branch -u origin/foo
+```
+or if not in the branch, foo:
+```
+$ git branch -u origin/foo foo
+```
+
 ### Adding a Submodule
 ```
 $ git submodule add <git-reference> # e.g. https://github.com/zendframework/zf1.git
