@@ -211,4 +211,12 @@ Where <remote> is usually ```master``` and ```<new-branch>``` is your new branch
 $ git submodule add <git-reference> # e.g. https://github.com/zendframework/zf1.git
 ```
 
+### Grabbing all remote branches on a new repo, from GitHub
+If on Windows, do this in a Git Bash window.
+```
+$ git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
+$ git fetch --all
+$ git pull --all
+```
+
 Written by Stephen Moon (stephen@logicalmoon.com)
