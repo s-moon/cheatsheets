@@ -1,5 +1,11 @@
 # Homestead and Vagrant
 
+#### Installation
+Install Vagrant and Virtual Box then run the following:
+```
+$ vagrant box add laravel/homestead
+```
+
 #### Bring VM up
 ```
 $ vagrant up
