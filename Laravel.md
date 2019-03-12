@@ -62,6 +62,21 @@ and then go to (usually) http://localhost:8000
 ```
 Where name could be something like "create_notes_table" and instead of notes, you would use your table name.
 
+### Migrating database
+```
+> php artisan migrate
+``
+
+### Rolling back a migration
+```
+> php artisan migrate:rollback
+```
+
+### Undoing a whole migration and re-doing it
+```
+> php artisan migrate: fresh
+```
+
 ### Running Tinker
 ```
 > php artisan tinker
