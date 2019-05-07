@@ -21,3 +21,5 @@ $ vagrant halt
 $ vagrant ssh
 $ share <site>
 ```
+
+See: [Homepage](https://laravel.com/docs/5.8/homestead)
