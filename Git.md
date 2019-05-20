@@ -115,6 +115,13 @@ $ git push origin master
 # and that upstream points to the source repository.
 ```
 
+### Pulling from remote repo and ignoring local file changes
+```
+$ git fetch --all
+$ git reset --hard origin/master
+```
+See: [stackoverflow](https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files)
+
 ### Removing files
 ```
 $ git rm PROJECTS.md # removes from the file system AND from staging
