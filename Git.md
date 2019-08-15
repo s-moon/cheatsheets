@@ -158,6 +158,16 @@ $ git commit --amend
 $ git reset HEAD <file to undo>
 ```
 
+### Change previous commits author
+```
+$ git commit --amend --author="Author Name <email@address.com>"
+```
+
+### Amend last commit message
+```
+$ git commit --amend
+```
+
 ### Undoing a file modification
 ```
 $ git checkout -- <file to undo> # this will revert a file back to before you modified it
