@@ -11,6 +11,7 @@ So, far, they consist of:
 * [Git](https://github.com/s-moon/CheatSheets/blob/master/Git.md)
 * [Homestead and Vagrant](https://github.com/s-moon/CheatSheets/blob/master/HomesteadVagrant.md)
 * [Laravel](https://github.com/s-moon/CheatSheets/blob/master/Laravel.md)
+* [Linux](https://github.com/s-moon/CheatSheets/blob/master/Linux.md)
 * [MySQL](https://github.com/s-moon/CheatSheets/blob/master/MySQL.md)
 * [PHP](https://github.com/s-moon/CheatSheets/blob/master/PHP.md)
 * [PHPUnit](https://github.com/s-moon/CheatSheets/blob/master/PHPUnit.md)
