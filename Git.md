@@ -91,17 +91,16 @@ $ git commit -a # stage all modified (but not new) files and commit them in one.
 $ git diff --staged
 ```
 
-### Pushing changes to your remote repository
-```
-$ git push origin
-$ git push origin master # use this if it complains about branches/which branch
-```
-
 ### Adding remote repositories
 ```
 $ git remote add <name of remote> <url of remote>
 ```
 
+### Pushing changes to your remote repository
+```
+$ git push origin
+$ git push origin master # use this if it complains about branches/which branch
+```
 ### Listing remotes
 ```
 $ git remote -v
