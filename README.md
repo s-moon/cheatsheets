@@ -16,6 +16,7 @@ So, far, they consist of:
 * [PHP](https://github.com/s-moon/CheatSheets/blob/master/PHP.md)
 * [PHPUnit](https://github.com/s-moon/CheatSheets/blob/master/PHPUnit.md)
 * [PowerShell](https://github.com/s-moon/CheatSheets/blob/master/PowerShell.md)
+* [Python](https://github.com/s-moon/CheatSheets/blob/master/Python.md)
 * [R](https://github.com/s-moon/CheatSheets/blob/master/R.md)
 * [Razor](https://github.com/s-moon/CheatSheets/blob/master/Razor.md)
 
