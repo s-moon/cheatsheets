@@ -31,6 +31,11 @@ owner = "Stephen's"
 full_name = f"{first_name} {last_name}"
 ```
 
+### Format method <= Python 3.5
+```
+full_name = "{} {}".format(first_name, last_name)
+```
+
 ### Printing
 ```
 print('Hello ' + name)
