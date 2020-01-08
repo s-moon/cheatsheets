@@ -81,6 +81,20 @@ sports.sort()
 sports.sort(reverse=True)
 ```
 
+### List from range
+```
+numbers = list(range(1,6))
+    print(numbers)
+[1, 2, 3, 4, 5] 
+```
+
+### List Comprehension
+Allows you to combine a for...loop and set in one
+```
+squares = [value**2 for value in range(1,11)]
+print(squares)
+```
+
 ### Insert
 ```
 sports.insert(0, 'Inserted at front of list')
@@ -106,3 +120,62 @@ del sports[1] # remove item at 1
 ```
 sports.remove('item to remove')
 ```
+
+### Slices
+```
+names = ['bill', 'john', 'peter', 'phil']
+names[:1] # ['bill']
+names[-2:] # ['peter', 'phil']
+names[2:3] # ['peter']
+```
+
+### Copying list
+```
+names = ['john']
+new_names = names[:]
+```
+
+## Tuples
+Lists that can't be changed. Use round brackets.
+```
+drinks = ('vodka', 'water', 'wine')
+```
+Behave exactly like lists, otherwise
+
+## For loop
+```
+people = ['alice', 'david', 'carolina']
+for person in people:
+    print(person)
+```
+
+## Range
+```
+for value in range(1,5):
+    print(value)
+1
+2
+3
+4
+```
+Even numbers
+```
+even_numbers = list(range(2,11,2))
+print(even_numbers)
+[2, 4, 6, 8, 10]
+```
+
+## Min, Max, Sum
+```
+>>> digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+>>> min(digits)
+0
+>>> max(digits)
+9
+>>> sum(digits)
+45
+```
+
+## References
+[PEP 8 - Style Guide](https://www.python.org/dev/peps/pep-0008/)
+[Python Crash Course 2e - Eric Matthes](https://nostarch.com/pythoncrashcourse2e)
