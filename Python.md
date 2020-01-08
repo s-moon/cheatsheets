@@ -26,6 +26,11 @@ name = "Stephen"
 owner = "Stephen's"
 ```
 
+### F Strings
+```
+full_name = f"{first_name} {last_name}"
+```
+
 ### Printing
 ```
 print('Hello ' + name)
