@@ -145,12 +145,79 @@ names = ['john']
 new_names = names[:]
 ```
 
+### Testing list is empty
+```
+names = []
+if names: # test that there is something at least, in list
+```
+
 ## Tuples
 Lists that can't be changed. Use round brackets.
 ```
 drinks = ('vodka', 'water', 'wine')
 ```
 Behave exactly like lists, otherwise
+
+## Dictionaries 
+* Use curly braces instead of square (like lists)
+* Comma separated
+* Can use comma on last entry in dictionary
+
+### Dictionaries in dictionaries
+```
+users = {
+    'aeinstein': {
+        'first': 'albert',
+        'last': 'einstein',
+        'location': 'princeton',
+        },
+    'mcurie': {
+        'first': 'marie',
+        'last': 'curie',
+        'location': 'paris',
+        },
+    }
+```
+
+### Lists in dictionaries
+```
+fruit = {
+    'sam': ['apple', 'strawberry'],
+    }
+```
+
+### Keys, Values and Items
+```
+for key in languages.keys():
+
+for value in languages.values():
+
+for key,value in languages.items():
+```
+
+## If
+```
+age = 5
+
+if age == 5:
+    # do something
+elif age == 6:
+    # do something
+else:
+    # do something
+```
+
+## Comparisons
+```
+>
+<
+>=
+<=
+!=
+==
+not
+in
+```
 
 ## For loop
 ```
