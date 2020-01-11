@@ -1,18 +1,26 @@
 # Python
 
-# Variables
+## Variables
 * Start with letter, underscore
 * May contain number (but see above)
 
-# Comments
+## Mutable v Immutable
+### Mutable
+* Set
+* Dictionary
+* List
+### Immutable
+* None
+* bool
+* int
+* float
+* str
+* tuple
+
+## Comments
 ```
 # Like this
 ```
-
-# Types
-* int
-* float
-* string
 
 ## Zen of Python
 In interpreter:
