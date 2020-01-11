@@ -137,6 +137,12 @@ del sports[1] # remove item at 1
 ### Delete named item
 ```
 sports.remove('item to remove')
+
+pets = ['cat', 'dog', 'cat', 'cat']
+print(pets)
+while 'cat' in pets:
+    pets.remove('cat')
+print(pets)
 ```
 
 ### Slices
