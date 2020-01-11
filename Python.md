@@ -215,6 +215,16 @@ else:
     # do something
 ```
 
+## Operators
+```
+%   # modulo
++
+-
+/
+*
+**   # to the power of
+```
+
 ## Comparisons
 ```
 >
