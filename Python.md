@@ -293,6 +293,59 @@ describe_pet(pet_name='harry', animal_type='hamster')
 describe_pet(animal_type='hamster', pet_name='harry')
 ```
 
+### Send copy of list to function
+```
+function_name(list_name[:])
+```
+
+### Variable list of arguments
+The asterisk in the parameter name *toppings tells Python to make an empty tuple called toppings and pack whatever values it receives into this tuple.
+```
+def make_pizza(*toppings):
+    """Print the list of toppings that have been requested."""
+    print(toppings)
+make_pizza('pepperoni')
+make_pizza('mushrooms', 'green peppers', 'extra cheese')
+```
+
+### Key-Value arguments
+```
+def build_profile(first, last, **user_info):
+    """Build a dictionary containing everything we know about a user."""
+    u user_info['first_name'] = first
+    user_info['last_name'] = last
+    return user_info
+
+user_profile = build_profile('albert', 'einstein', location='princeton', field='physics')
+print(user_profile)
+```
+
+## Modules
+```
+import module_name
+from module_name import function_name
+from module_name import function_name as fn
+import module_name as mn
+from module_name import *
+
+examples:
+
+from pizza import make_pizza as mp
+mp('pepperoni', 'small', 'cheese', 'pepperoni')
+
+from pizza import make_pizza
+make_pizza('pepperoni', 'small', 'cheese', 'pepperoni')
+
+from pizza import *
+make_pizza('pepperoni', 'small', 'cheese', 'pepperoni')
+
+import pizza
+pizza.make_pizza('pepperoni', 'small', 'cheese', 'pepperoni')
+
+import pizza as p
+p.make_pizza('pepperoni', 'small', 'cheese', 'pepperoni')
+```
+
 ## References
 [PEP 8 - Style Guide](https://www.python.org/dev/peps/pep-0008/)
 [Python Crash Course 2e - Eric Matthes](https://nostarch.com/pythoncrashcourse2e)
