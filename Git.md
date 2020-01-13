@@ -69,6 +69,11 @@ $ git add .
 $ git add -p
 ```
 
+### Add file AND commit with message
+```
+$ git commit -am 'Message'
+```
+
 ### Viewing your unstaged commits
 ```
 $ git diff
