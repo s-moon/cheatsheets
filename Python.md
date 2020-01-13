@@ -277,6 +277,22 @@ print(even_numbers)
 45
 ```
 
+## Functions
+```
+def describe_pet(pet_name, animal_type='dog'):
+    """Display information about a pet."""
+    print(f"\nI have a {animal_type}.")
+
+# A dog named Willie.
+describe_pet('willie')
+describe_pet(pet_name='willie')
+
+# A hamster named Harry.
+describe_pet('harry', 'hamster')
+describe_pet(pet_name='harry', animal_type='hamster')
+describe_pet(animal_type='hamster', pet_name='harry')
+```
+
 ## References
 [PEP 8 - Style Guide](https://www.python.org/dev/peps/pep-0008/)
 [Python Crash Course 2e - Eric Matthes](https://nostarch.com/pythoncrashcourse2e)
