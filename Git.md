@@ -175,6 +175,11 @@ $ git checkout -- <file to undo> # this will revert a file back to before you mo
 $ git co --
 ```
 
+### Reverting to the last commit
+```
+$ git checkout .
+```
+
 ### Creating a branch and switching to it
 ```
 $ git checkout -b <branch-name>
