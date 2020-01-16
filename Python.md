@@ -345,6 +345,35 @@ pizza.make_pizza('pepperoni', 'small', 'cheese', 'pepperoni')
 import pizza as p
 p.make_pizza('pepperoni', 'small', 'cheese', 'pepperoni')
 ```
+## Classes
+```
+class Battery:
+    """A simple attempt to model a battery for an electric car."""
+
+    def __init__(self, battery_size=70):
+        """Initialize the battery's attributes."""
+        self.battery_size = battery_size
+
+    def describe_battery(self):
+        """Print a statement describing the battery size."""
+        print(f"This car has a {self.battery_size}-kWh battery.")
+
+...
+
+    class ElectricCar(Car):
+        """Models aspects of a car, specific to electric vehicles."""
+    
+        def __init__(self, make, model, year):
+            """
+            Initialize attributes of the parent class.
+            Then initialize attributes specific to an electric car.
+            """
+            super().__init__(make, model, year)
+            self.battery = Battery()
+...
+
+
+```
 
 ## References
 [PEP 8 - Style Guide](https://www.python.org/dev/peps/pep-0008/)
