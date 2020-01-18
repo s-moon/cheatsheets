@@ -372,7 +372,12 @@ class Battery:
             self.battery = Battery()
 ...
 
+```
 
+## Determine if running as console app
+```
+if __name__ == "__main__":
+    main()
 ```
 
 ## References
