@@ -19,8 +19,9 @@ So, far, they consist of:
 * [Python](https://github.com/s-moon/CheatSheets/blob/master/Python.md)
 * [R](https://github.com/s-moon/CheatSheets/blob/master/R.md)
 * [Razor](https://github.com/s-moon/CheatSheets/blob/master/Razor.md)
+* [VSCode](https://github.com/s-moon/CheatSheets/blob/master/VSCode.md)
 
 If you find any mistakes, please let me know and I will correct them.
 
-Written by Stephen Moon, 2019 (stephen@logicalmoon.com)
+Written by Stephen Moon, (stephen@logicalmoon.com)
 
