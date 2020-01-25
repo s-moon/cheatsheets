@@ -1,5 +1,7 @@
 # VS Code Editor Shortcuts
 
+There are of course many, many short-cuts in [VSCode](https://code.visualstudio.com/), but these are the ones that I find most useful.
+
 ## Beginning of file/end of file
 ```
 CTRL-HOME/CTRL-END
