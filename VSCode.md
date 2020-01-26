@@ -22,6 +22,11 @@ SHIFT-ALT-UP/SHIFT-ALT-DOWN
 SHIFT-CTRL-ENTER/SHIFT-ENTER
 ```
 
+## Go to line
+```
+CTRL-G
+```
+
 ## Toggle word-wrap
 ```
 ALT-Z
