@@ -37,9 +37,19 @@ ALT-Z
 CTRL-/
 ```
 
-Toggle block comment
+## Toggle block comment
 ```
 SHIFT-ALT-A
+```
+
+## Select line
+```
+CTRL-L
+```
+
+## Select all occurrences of current word
+```
+CTRL-F2
 ```
 
 ## Quick Open
