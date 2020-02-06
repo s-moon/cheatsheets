@@ -345,6 +345,7 @@ pizza.make_pizza('pepperoni', 'small', 'cheese', 'pepperoni')
 import pizza as p
 p.make_pizza('pepperoni', 'small', 'cheese', 'pepperoni')
 ```
+
 ## Classes
 ```
 class Battery:
