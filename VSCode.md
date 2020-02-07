@@ -62,3 +62,7 @@ CTRL-P
 CTRL-,
 ```
 
+## Close window
+```
+CTRL-W, CTRL-F4
+```
