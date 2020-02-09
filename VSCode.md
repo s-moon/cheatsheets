@@ -66,3 +66,8 @@ CTRL-,
 ```
 CTRL-W, CTRL-F4
 ```
+
+## Split editor
+```
+CTRL-\
+```
