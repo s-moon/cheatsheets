@@ -71,3 +71,8 @@ CTRL-W, CTRL-F4
 ```
 CTRL-\
 ```
+
+## New file
+```
+CTRL-N
+``
