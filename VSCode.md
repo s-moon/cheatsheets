@@ -76,3 +76,8 @@ CTRL-\
 ```
 CTRL-N
 ``
+
+## Save all files
+```
+CTRL-K CTRL-W
+``
