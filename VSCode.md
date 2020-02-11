@@ -81,3 +81,8 @@ CTRL-N
 ```
 CTRL-K CTRL-W
 ``
+
+## Zoom in/out
+```
+CTRL-+ or CTRL--
+``
