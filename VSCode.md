@@ -86,3 +86,8 @@ CTRL-K CTRL-W
 ```
 CTRL-+ or CTRL--
 ``
+
+## Toggle sidebar
+```
+CTRL-B
+``
