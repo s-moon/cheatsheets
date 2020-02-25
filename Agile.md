@@ -25,5 +25,7 @@ Agile is a time boxed, iterative approach to software delivery that builds softw
 ## Links
 * [Manifesto](https://agilemanifesto.org/)
 * [Scrum Guide](https://www.scrum.org/resources/scrum-guide)
+* [Scrum Reading List](https://www.scrum.org/resources/suggested-reading-professional-scrum-master)
+* [Scrum Learning Path](https://www.scrum.org/pathway/scrum-master)
 
 Written by Stephen Moon (stephen@logicalmoon.com), 2016-2020
