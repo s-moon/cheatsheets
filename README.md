@@ -23,5 +23,5 @@ So, far, they consist of:
 
 If you find any mistakes, please let me know and I will correct them.
 
-Written by Stephen Moon, (stephen@logicalmoon.com)
+Created by Stephen Moon, (stephen@logicalmoon.com)
 
