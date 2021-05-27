@@ -143,7 +143,8 @@ $ git log
 # show difference AND limit to last two entries
 $ git log -p -2	
 
-$ git log --pretty=oneline # one line version
+$ git log --pretty=oneline # one line version or,
+$ git log --format=oneline
 ```
 
 ### Undoing a commit message
