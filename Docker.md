@@ -46,4 +46,4 @@ $ docker compose down -v --rmi all --remove-orphans
 Orphan containers are left behind containers that used to match a Docker Compose service but are now not connected to anything, which sometimes happens while you're building your Docker setup.
 
 ### Credit
-See the excellent article series by Yannick at [https://tech.osteel.me/posts/docker-for-local-web-development-part-1-a-basic-lemp-stack](https://tech.osteel.me/posts/docker-for-local-web-development-part-1-a-basic-lemp-stack).
+All of this comes from the excellent article series by Yannick at [https://tech.osteel.me/posts/docker-for-local-web-development-part-1-a-basic-lemp-stack](https://tech.osteel.me/posts/docker-for-local-web-development-part-1-a-basic-lemp-stack). Please do check his blog out - it's fantastic.
