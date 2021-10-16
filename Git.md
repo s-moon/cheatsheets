@@ -52,6 +52,11 @@ $ cat .gitignore
 # see (http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files)
 ```
 
+### Setting the default branch to master
+```
+$ git config --global init.defaultBranch master
+``
+
 ### Getting help
 ```
 $ git help <command>
