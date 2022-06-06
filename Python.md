@@ -1,5 +1,29 @@
 # Python
 
+## Command Line
+```
+$ python --version
+$ python -m venv <virtual-environment-name>
+$ <virtual-environment-name>/Scripts/activate.bat (<-- Windows)
+$ deactivate.bat (<-- Windows, after activating)
+```
+
+## PIP
+```
+$ pip --version
+$ pip list
+  - list installed packages
+$ pip install <package> (--user : if do not have folder permissions to install packages)
+$ pip uninstall <package>
+$ pip search <package>
+$ pip freeze
+  - show list of installed packages
+$ pip freeze > requirements.txt
+  - save list into file
+$ pip install -r requirements.txt
+  - install saved packages in one go
+```
+
 ## Variables
 * Start with letter, underscore
 * May contain number (but see above)
