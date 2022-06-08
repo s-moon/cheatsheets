@@ -201,6 +201,22 @@ Behave exactly like lists, otherwise
 * Comma separated
 * Can use comma on last entry in dictionary
 
+### Example Usage
+```
+>>> dict['name'] = 'peter'
+>>> dict
+{'name': 'peter', 'age': 20}
+>>> del dict['age']
+>>> dict
+{'name': 'peter'}
+>>> dict.clear()
+>>> dict
+{}
+>>> del dict
+>>> dict
+<class 'dict'>
+```
+
 ### Dictionaries in dictionaries
 ```
 users = {
