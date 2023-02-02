@@ -79,7 +79,7 @@ $ git add .
 $ git add -p
 ```
 
-### Add file AND commit with message
+#### Add file AND commit with message
 ```
 $ git commit -am 'Message'
 ```
@@ -116,6 +116,7 @@ $ git remote add <name of remote> <url of remote>
 $ git push origin
 $ git push origin master # use this if it complains about branches/which branch
 ```
+
 ### Listing remotes
 ```
 $ git remote -v
@@ -156,6 +157,7 @@ $ git log -p -2
 ```
 
 #### Other options
+```
 $ git log --pretty=oneline # one line version or,
 $ git log --format=oneline
 ```
