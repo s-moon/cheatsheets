@@ -63,13 +63,19 @@ $ git help <command>
 ```
 
 ### Adding files
-```
-// Add a specific file
-$ git add <file path>
+#### Add a specific file
 
-// Add all files in current directory
+```
+$ git add <file path>
+```
+  
+#### Add all files in current directory
+```
 $ git add .
-// Adding files one by one (use y, n or q to end)
+```
+
+#### Adding files one by one (use y, n or q to end)
+```
 $ git add -p
 ```
 
@@ -119,9 +125,8 @@ $ git remote -v
 ```
 $ git pull upstream master
 $ git push origin master
-# NB - this assumes you have origin pointing to your forked repository
-# and that upstream points to the source repository.
 ```
+NB - this assumes you have origin pointing to your forked repository and that upstream points to the source repository.
 
 ### Pulling from remote repo and ignoring local file changes
 ```
@@ -143,22 +148,26 @@ $ git mv file_from file_to
 ### Viewing commit history
 ```
 $ git log
-
-# show difference AND limit to last two entries
+```
+  
+#### Show difference AND limit to last two entries
+```
 $ git log -p -2	
+```
 
+#### Other options
 $ git log --pretty=oneline # one line version or,
 $ git log --format=oneline
 ```
 
 ### Undoing a commit message
 ```
-# this will allow you to re-do your commit message
+- this will allow you to re-do your commit message
 $ git commit --amend 
 
 $ git add <file-that-I-forgot>
 
-# a second file is added and included in the original commit
+- a second file is added and included in the original commit
 $ git commit --amend 
 ```
 
@@ -181,7 +190,7 @@ $ git commit --amend
 ```
 $ git checkout -- <file to undo> # this will revert a file back to before you modified it
 
-# remove all changes
+- remove all changes
 $ git co --
 ```
 
@@ -213,7 +222,7 @@ $ git push <remote_name> --delete <branch_name>
 ### Switching between branches
 ```
 $ git co -
-# repeat to switch back to previous branch
+- repeat to switch back to previous branch
 
 or
 $ git checkout <branch-name>
