@@ -64,13 +64,12 @@ $ git help <command>
 
 ### Adding files
 ```
-# Add a specific file
+// Add a specific file
 $ git add <file path>
 
-# Add all files in current directory
+// Add all files in current directory
 $ git add .
-
-# Adding files one by one (use y, n or q to end)
+// Adding files one by one (use y, n or q to end)
 $ git add -p
 ```
 
