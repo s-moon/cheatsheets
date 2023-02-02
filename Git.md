@@ -55,7 +55,7 @@ $ cat .gitignore
 ### Setting the default branch to master
 ```
 $ git config --global init.defaultBranch master
-``
+```
 
 ### Getting help
 ```
