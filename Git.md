@@ -253,6 +253,11 @@ Where <remote> is usually ```master``` and ```<new-branch>``` is your new branch
 $ git submodule add <git-reference> # e.g. https://github.com/zendframework/zf1.git
 ```
 
+### Retrieving all Submodules
+```
+$ git submodule update --init --recursive
+```
+  
 ### Grabbing all remote branches on a new repo, from GitHub
 If on Windows, do this in a Git Bash window.
 ```
