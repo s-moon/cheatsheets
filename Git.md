@@ -266,4 +266,14 @@ $ git fetch --all
 $ git pull --all
 ```
 
+### You've commited to master but wished changes were on a branch instead
+Steps largely taken from: https://stackoverflow.com/a/63727509
+```
+$ git branch branch-name-you-wished-you-had-used
+$ git reset abc5b0de1 --hard <replace abc5b0de1 with the commit log id you want to go back to>
+$ git push origin master <if master was the branch that commit related to>
+$ git checkout branch-name-you-wished-you-had-used
+$ git push origin branch-name-you-wished-you-had-used
+```
+
 Written by Stephen Moon (stephen@logicalmoon.com)
