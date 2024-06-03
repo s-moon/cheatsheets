@@ -10,6 +10,7 @@ So, far, they consist of:
 * [C&#35;](https://github.com/s-moon/CheatSheets/blob/master/CSharp.md)
 * [Docker](https://github.com/s-moon/CheatSheets/blob/master/Docker.md)
 * [Git](https://github.com/s-moon/CheatSheets/blob/master/Git.md)
+* [Google Cloud](https://github.com/s-moon/CheatSheets/blob/master/GoogleCloud.md))
 * [Homestead and Vagrant](https://github.com/s-moon/CheatSheets/blob/master/HomesteadVagrant.md)
 * [Laravel](https://github.com/s-moon/CheatSheets/blob/master/Laravel.md)
 * [Linux](https://github.com/s-moon/CheatSheets/blob/master/Linux.md)
