@@ -45,5 +45,60 @@ $ docker compose down -v --rmi all --remove-orphans
 ```
 Orphan containers are left behind containers that used to match a Docker Compose service but are now not connected to anything, which sometimes happens while you're building your Docker setup.
 
+### Create an image
+```
+$ docker image build -t logicalmoon/gsd:ctr2023 .
+```
+* logicalmoon is the docker hub a/c. 
+* gsd is the name of the repository.
+* ctr2023 is the tag name.
+* . is the current directory
+
+### Building multi architecture images
+```
+$ docker buildx build --platform linux/arm64/v8,linux/amd64 --push --tag logicalmoon/gsd:ctr2023 .
+```
+Note: won't work on Mac
+
+### Listing images
+```
+$ docker image ls
+```
+
+### Delete image
+```
+$ docker image rm logicalmoon/gsd:ctr2023
+```
+
+### Start a container
+```
+$ docker container run -d --name web -p 8000:8080 logicalmoon/gsd:ctr2023 
+```
+* 8000 is the external port
+* 8080 is the internal port
+* web is the name given for this container
+* -d run detached from the terminal
+
+### Listing containers
+```
+$ docker container ls
+```
+Use -a if you want to see all containers, including stopping ones
+
+### Stop the container
+```
+$ docker container stop web
+```
+
+### ``start the container (other way)
+```
+$ docker container start web
+```
+
+### Pushing to the registry
+```
+$ docker image push logicalmoon/gsd:ctr2023
+```
+
 ### Credit
-All of this comes from the excellent article series by Yannick at [https://tech.osteel.me/posts/docker-for-local-web-development-part-1-a-basic-lemp-stack](https://tech.osteel.me/posts/docker-for-local-web-development-part-1-a-basic-lemp-stack). Please do check his blog out - it's fantastic.
+Some of this comes from the excellent article series by Yannick at [https://tech.osteel.me/posts/docker-for-local-web-development-part-1-a-basic-lemp-stack](https://tech.osteel.me/posts/docker-for-local-web-development-part-1-a-basic-lemp-stack). Please do check his blog out - it's fantastic. The rest comes from a Pluralsight course by Nigel Poulter (also excellent).
