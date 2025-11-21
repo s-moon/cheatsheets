@@ -90,7 +90,7 @@ Use -a if you want to see all containers, including stopping ones
 $ docker container stop web
 ```
 
-### ``start the container (other way)
+### Start the container (other way)
 ```
 $ docker container start web
 ```
